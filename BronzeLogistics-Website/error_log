@@ -1,0 +1,24 @@
+[10-Nov-2012 21:35:45 UTC] PHP Warning:  fopen(aboutus.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/bronze43/public_html/index.php on line 49
+[10-Nov-2012 21:35:45 UTC] PHP Warning:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for aboutus.html in /home/bronze43/public_html/index.php on line 50
+[10-Nov-2012 21:35:45 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/bronze43/public_html/index.php on line 50
+[10-Nov-2012 21:35:46 UTC] PHP Warning:  fopen(aboutus.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/bronze43/public_html/index.php on line 49
+[10-Nov-2012 21:35:46 UTC] PHP Warning:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for aboutus.html in /home/bronze43/public_html/index.php on line 50
+[10-Nov-2012 21:35:46 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/bronze43/public_html/index.php on line 50
+[10-Nov-2012 21:37:12 UTC] PHP Warning:  fopen(aboutus.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/bronze43/public_html/index.php on line 49
+[10-Nov-2012 21:37:12 UTC] PHP Warning:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for aboutus.html in /home/bronze43/public_html/index.php on line 50
+[10-Nov-2012 21:37:12 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/bronze43/public_html/index.php on line 50
+[10-Nov-2012 21:37:13 UTC] PHP Warning:  fopen(aboutus.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/bronze43/public_html/index.php on line 49
+[10-Nov-2012 21:37:13 UTC] PHP Warning:  filesize() [<a href='function.filesize'>function.filesize</a>]: stat failed for aboutus.html in /home/bronze43/public_html/index.php on line 50
+[10-Nov-2012 21:37:13 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/bronze43/public_html/index.php on line 50
+[17-Nov-2012 12:21:03 UTC] PHP Warning:  scandir(../gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:21:03 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:21:04 UTC] PHP Warning:  scandir(../gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:21:04 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:24:16 UTC] PHP Warning:  scandir(../gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:24:16 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:24:17 UTC] PHP Warning:  scandir(../gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:24:17 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:25:50 UTC] PHP Warning:  scandir(../gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:25:50 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:25:52 UTC] PHP Warning:  scandir(../gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/gallery.php on line 50
+[17-Nov-2012 12:25:52 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/gallery.php on line 50

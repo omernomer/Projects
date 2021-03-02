@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>JavaScript</title>
+    <script>
+        function rot13(str) {
+            let lts = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            let ls = [];
+            let regEx = /[\W]/g;
+            for (var j = 0; j < str.length; j++) {
+                for (var i = 0; i < 26; i++) {
+                    if (str[j] == lts[i]) {
+                        //console.log(str[j]+" "+(i-13))
+                        if ((i - 13) < 0) {
+                            ls.push((i - 13) + 26);
+                        } else {
+                            ls.push(i - 13);
+                        }
+                    }
+                    //ls.push(lts[i]);
+                }
+                if (regEx.test(str[j])) {
+                    //console.log(regEx.test(str[j]));
+                    ls.push(str[j]);
+                }
+            }
+            //console.log(9-13)
+            //console.log(lts[-4+25])
+            console.log(ls)
+            let reStr = "";
+            for (var i = 0; i < ls.length; i++) {
+                if (regEx.test(ls[i]) == false) {
+                    reStr = reStr + (lts[ls[i]]);
+                } else {
+                    reStr = reStr + (ls[i]);
+                }
+            }
+            console.log(reStr);
+            return reStr;
+        }
+
+        rot13("SERR PBQR PNZC");
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul>
+                    <li><a href="index.html">Palindrome Checker</a></li>
+                    <li><a href="rom.html">Roman Numeral Converter</a></li>
+                    <li><a href="rot.html">Caesars Cipher</a></li>
+                    <li><a href="tel.html">Telephone Number Validator</a></li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <p>A common modern use is the ROT13 cipher, where the values of the letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so on.</p>
+                <label>Enter a number (Hit enter to submit):</label> <input type="text" id="text" placeholder="" />
+                <p id="test"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $("#text").change(function () {
+        var text = $("#text").val();
+        $("#test").html(rot13(text.toUpperCase()));
+    });
+</script>
+
+</html>

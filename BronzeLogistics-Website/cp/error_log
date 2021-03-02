@@ -1,0 +1,8 @@
+[17-Nov-2012 22:09:35 UTC] PHP Warning:  scandir(gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50
+[17-Nov-2012 22:09:35 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50
+[17-Nov-2012 22:09:36 UTC] PHP Warning:  scandir(gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50
+[17-Nov-2012 22:09:36 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50
+[17-Nov-2012 22:10:17 UTC] PHP Warning:  scandir(gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50
+[17-Nov-2012 22:10:17 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50
+[17-Nov-2012 22:10:19 UTC] PHP Warning:  scandir(gallery) [<a href='function.scandir'>function.scandir</a>]: failed to open dir: No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50
+[17-Nov-2012 22:10:19 UTC] PHP Warning:  scandir() [<a href='function.scandir'>function.scandir</a>]: (errno 2): No such file or directory in /home/bronze43/public_html/cp/gallery.php on line 50

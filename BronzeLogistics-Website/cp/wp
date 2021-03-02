@@ -1,0 +1,180 @@
+<NotepadPlus>
+    <Project name="Bronze">
+        <Folder name="CP">
+            <Folder name="css">
+                <File name="css\css.css" />
+                <File name="css\formee-structure.css" />
+                <File name="css\formee-style.css" />
+                <File name="css\formee.js" />
+                <File name="css\main.css" />
+                <File name="css\nivo-slider.css" />
+                <File name="css\normalize.css" />
+                <File name="css\tipsy.css" />
+            </Folder>
+            <Folder name="icons">
+                <File name="icons\add.png" />
+                <File name="icons\delete.png" />
+                <File name="icons\edit.png" />
+            </Folder>
+            <Folder name="images">
+                <File name="images\1.png" />
+                <File name="images\arden.jpg" />
+                <File name="images\bb.png" />
+                <File name="images\bg.png" />
+                <File name="images\content.png" />
+                <File name="images\contract.png" />
+                <File name="images\eia.jpg" />
+                <File name="images\footer.png" />
+                <File name="images\future.png" />
+                <File name="images\hd.jpg" />
+                <File name="images\header.png" />
+                <File name="images\langs.png" />
+                <File name="images\langs1.png" />
+                <File name="images\lnews.jpg" />
+                <File name="images\logo.png" />
+                <File name="images\menu.png" />
+                <File name="images\mobi.jpg" />
+                <File name="images\n.jpg" />
+                <File name="images\newroz.jpg" />
+                <File name="images\news.png" />
+                <File name="images\news1.png" />
+                <File name="images\omv.jpg" />
+                <File name="images\rotana.jpg" />
+                <File name="images\sony.jpg" />
+                <File name="images\tr.jpg" />
+                <File name="images\zain.jpg" />
+                <File name="images\zte.jpg" />
+            </Folder>
+            <Folder name="js">
+                <Folder name="vendor">
+                    <File name="js\vendor\jquery-1.8.0.min.js" />
+                    <File name="js\vendor\modernizr-2.6.1.min.js" />
+                </Folder>
+                <File name="js\jquery.nivo.slider.pack.js" />
+                <File name="js\jquery.tipsy.js" />
+                <File name="js\main.js" />
+                <File name="js\plugins.js" />
+            </Folder>
+            <Folder name="slider">
+                <File name="slider\1.jpg" />
+                <File name="slider\2.jpg" />
+                <File name="slider\3.jpg" />
+                <File name="slider\4.jpg" />
+            </Folder>
+            <Folder name="themes">
+                <Folder name="default">
+                    <File name="themes\default\arrows.png" />
+                    <File name="themes\default\bullets.png" />
+                    <File name="themes\default\default.css" />
+                    <File name="themes\default\loading.gif" />
+                </Folder>
+            </Folder>
+            <File name=".htaccess" />
+            <File name="404.html" />
+            <File name="aboutus.php" />
+            <File name="add_news.php" />
+            <File name="add_news_do.php" />
+            <File name="contactus.php" />
+            <File name="contracts.php" />
+            <File name="crossdomain.xml" />
+            <File name="customers.php" />
+            <File name="db.php" />
+            <File name="footer.php" />
+            <File name="future.php" />
+            <File name="header.php" />
+            <File name="home.php" />
+            <File name="index.php" />
+            <File name="menu.php" />
+            <File name="news.php" />
+            <File name="partners.php" />
+            <File name="services.php" />
+        </Folder>
+        <Folder name="css">
+            <File name="C:\xampp\htdocs\Bronze\css\css.css" />
+            <File name="C:\xampp\htdocs\Bronze\css\formee-structure.css" />
+            <File name="C:\xampp\htdocs\Bronze\css\formee-style.css" />
+            <File name="C:\xampp\htdocs\Bronze\css\formee.js" />
+            <File name="C:\xampp\htdocs\Bronze\css\main.css" />
+            <File name="C:\xampp\htdocs\Bronze\css\nivo-slider.css" />
+            <File name="C:\xampp\htdocs\Bronze\css\normalize.css" />
+            <File name="C:\xampp\htdocs\Bronze\css\tipsy.css" />
+        </Folder>
+        <Folder name="images">
+            <File name="C:\xampp\htdocs\Bronze\images\1.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\arden.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\bb.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\bg.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\content.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\contract.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\eia.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\footer.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\future.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\hd.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\header.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\langs.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\langs1.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\lnews.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\logo.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\menu.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\mobi.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\n.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\newroz.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\news.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\news1.png" />
+            <File name="C:\xampp\htdocs\Bronze\images\omv.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\rotana.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\sony.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\tr.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\Untitled-2.psd" />
+            <File name="C:\xampp\htdocs\Bronze\images\Untitled-3.psd" />
+            <File name="C:\xampp\htdocs\Bronze\images\zain.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\images\zte.jpg" />
+        </Folder>
+        <Folder name="js">
+            <Folder name="vendor">
+                <File name="C:\xampp\htdocs\Bronze\js\vendor\jquery-1.8.0.min.js" />
+                <File name="C:\xampp\htdocs\Bronze\js\vendor\modernizr-2.6.1.min.js" />
+            </Folder>
+            <File name="C:\xampp\htdocs\Bronze\js\jquery.nivo.slider.pack.js" />
+            <File name="C:\xampp\htdocs\Bronze\js\jquery.tipsy.js" />
+            <File name="C:\xampp\htdocs\Bronze\js\main.js" />
+            <File name="C:\xampp\htdocs\Bronze\js\plugins.js" />
+        </Folder>
+        <Folder name="news">
+            <File name="C:\xampp\htdocs\Bronze\news\50806fbef17151.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\news\5080737dddcbd1.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\news\50807a5f286ee6.jpg" />
+        </Folder>
+        <Folder name="slider">
+            <File name="C:\xampp\htdocs\Bronze\slider\1.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\slider\2.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\slider\3.jpg" />
+            <File name="C:\xampp\htdocs\Bronze\slider\4.jpg" />
+        </Folder>
+        <Folder name="themes">
+            <Folder name="default">
+                <File name="C:\xampp\htdocs\Bronze\themes\default\arrows.png" />
+                <File name="C:\xampp\htdocs\Bronze\themes\default\bullets.png" />
+                <File name="C:\xampp\htdocs\Bronze\themes\default\default.css" />
+                <File name="C:\xampp\htdocs\Bronze\themes\default\loading.gif" />
+            </Folder>
+        </Folder>
+        <File name="C:\xampp\htdocs\Bronze\.htaccess" />
+        <File name="C:\xampp\htdocs\Bronze\404.html" />
+        <File name="C:\xampp\htdocs\Bronze\aboutus.php" />
+        <File name="C:\xampp\htdocs\Bronze\contactus.php" />
+        <File name="C:\xampp\htdocs\Bronze\contracts.php" />
+        <File name="C:\xampp\htdocs\Bronze\crossdomain.xml" />
+        <File name="C:\xampp\htdocs\Bronze\customers.php" />
+        <File name="C:\xampp\htdocs\Bronze\footer.php" />
+        <File name="C:\xampp\htdocs\Bronze\future.php" />
+        <File name="C:\xampp\htdocs\Bronze\header.php" />
+        <File name="C:\xampp\htdocs\Bronze\humans.txt" />
+        <File name="C:\xampp\htdocs\Bronze\index.php" />
+        <File name="C:\xampp\htdocs\Bronze\menu.php" />
+        <File name="C:\xampp\htdocs\Bronze\news.php" />
+        <File name="C:\xampp\htdocs\Bronze\partners.php" />
+        <File name="C:\xampp\htdocs\Bronze\robots.txt" />
+        <File name="C:\xampp\htdocs\Bronze\services.php" />
+    </Project>
+</NotepadPlus>

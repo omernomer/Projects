@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>JavaScript</title>
+    <script>
+        function convertToRoman(num) {
+            let rom = "";
+            let remainder = 0;
+            let n = 0;
+            
+            if (!Number.isInteger(Number.parseInt(num))) {
+                return "Please, enter a number";
+            }
+            function conv(nn, ltr, v) {
+                if (nn % v >= 0) {
+                    n = Math.floor(nn / v);
+                    for (var i = 0; i < n; i++) {
+                        rom = rom + ltr;
+                        nn = nn - (Math.floor(nn / v) * v);
+                        num = nn % v;
+                    }
+                }
+            }
+            if (num >= 1000) {
+                /*if(num%1000>0) {
+                    n=Math.floor(num/1000);
+                    for (var i=0; i<n; i++) {
+                        rom=rom+"M";
+                        num=num-(Math.floor(num/1000)*1000);
+                        remainder=num%1000;
+                    }
+                }*/
+                conv(num, "M", 1000);
+            }
+            if (num >= 900 && num < 1000) {
+                conv(num, "CM", 900);
+            }
+            if (num >= 500 && num < 900) {
+                conv(num, "D", 500);
+            }
+            if (num >= 400 && num < 500) {
+                conv(num, "CD", 400);
+            }
+            if (num >= 100 && num < 400) {
+                conv(num, "C", 100);
+            }
+            if (num >= 90 && num < 100) {
+                conv(num, "XC", 90);
+            }
+            if (num >= 50 && num < 90) {
+                conv(num, "L", 50);
+            }
+            if (num >= 40 && num < 50) {
+                conv(num, "XL", 40);
+            }
+            if (num >= 10 && num < 40) {
+                conv(num, "X", 10);
+            }
+            if (num == 9) {
+                console.log("t")
+                conv(num, "IX", 9);
+            }
+            if (num >= 5 && num < 9) {
+                conv(num, "V", 5);
+            }
+            if (num == 4) {
+                conv(num, "IV", 4);
+            }
+            if (num >= 1 && num < 4) {
+                conv(num, "I", 1);
+            }
+            return rom;
+        }
+
+        convertToRoman(400);
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <ul>
+                    <li><a href="index.html">Palindrome Checker</a></li>
+                    <li><a href="rom.html">Roman Numeral Converter</a></li>
+                    <li><a href="rot.html">Caesars Cipher</a></li>
+                    <li><a href="tel.html">Telephone Number Validator</a></li>
+                </ul>
+            </div>
+            <div class="col-8">
+                <p>Convert the given number into a roman numeral.</p>
+                <label>Enter a number (Hit enter to submit):</label> <input type="text" id="text"
+                    placeholder="" />
+                <p id="test"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $("#text").change(function () {
+        var text = $("#text").val();
+        $("#test").html(convertToRoman(text));
+    });
+</script>
+
+</html>

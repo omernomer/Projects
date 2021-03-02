@@ -1,0 +1,65 @@
+$(document).ready(function() {
+    var hashtag = window.location.hash;
+    //Docs
+    function load_docs() {
+        $("#content").load("docs.php");
+        //$("#apps a").not("#docs").fadeTo("fast",0.1);
+    }
+    $("#docs").click(function() {
+        $("#content").load("docs.php").hide().fadeIn("fast");
+        //$("#apps a").not(this).fadeTo("fast",0.1);
+        //$(this).fadeTo("fast",1);
+        //$("#apps a").removeClass("pressed");
+        //$(this).addClass("pressed");
+    });
+    if (hashtag == "#load_docs") load_docs();
+    //msgs
+    function load_msgs() {
+        $("#content").load("msgs.php");
+        //$("#apps a").not("#msgs").fadeTo("fast",0.1);
+    }
+    $("#msgs").click(function() {
+        $("#content").load("msgs.php").hide().fadeIn("fast");
+        //$("#apps a").not(this).fadeTo("fast",0.1);
+        //$(this).fadeTo("fast",1);
+        //$("#apps a").removeClass("pressed");
+        //$(this).addClass("pressed");
+    });
+    if (hashtag == "#load_msgs") load_msgs();
+    //Profile
+    function load_prof() {
+        $("#content").load("profile.php");
+        //$("#apps a").not("#prof").fadeTo("fast",0.1);
+    }
+    $("#prof").click(function() {
+        $("#content").load("profile.php").hide().fadeIn("fast");
+        //$("#apps a").not(this).fadeTo("fast",0.1);
+        //$(this).fadeTo("fast",1);
+        //$("#apps a").removeClass("pressed");
+        //$(this).addClass("pressed");
+    });
+    if (hashtag == "#load_prof") load_prof();
+    //Announcements
+    function load_ann() {
+        $("#content").load("ann.php");
+       // $("#apps a").not("#ann").fadeTo("fast",0.1);
+    }
+    $("#ann").click(function() {
+        $("#content").load("ann.php").hide().fadeIn("fast");
+        //$("#apps a").not(this).fadeTo("fast",0.1);
+        //$(this).fadeTo("fast",1);
+        //$("#apps a").removeClass("pressed");
+        //$(this).addClass("pressed");
+    });
+    if (hashtag == "#load_ann") load_ann();
+    var opa=$("#apps a").css("opacity");
+    $("#apps a").hover(function() {
+        //$(this).fadeTo("fast",1);
+    },
+    function() {
+        var pressed=$(this).hasClass("pressed");
+        if (pressed==false) {
+        //$(this).fadeTo("fast",0.1);
+        }
+    })
+});

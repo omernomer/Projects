@@ -1,0 +1,1 @@
+<p style="font-size: 10pt; position:absolute; bottom:8px; left:200px;">All rights are reserved for Bronze Logistics Company &copy; <?php echo date('Y'); ?> - Designed and Developed by <a href="http://codepotamia.net" target="_blank">codePotamia</a></p>
