@@ -3,3 +3,4 @@
 -	execute this command to run: `python th1.py moneyApp.json [m] verbs`
 -	`[m]` should be replace with `g` which is google word2vec model or `f` which is fastText model.
 -	`verbs` is optional which removes some stop words from the operation names in the APIs.
+-	`moneyApp.json` is an Swagger API definition file.
