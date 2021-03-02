@@ -1,0 +1,1 @@
+This is a simple website that uses HTML, CSS, JS, and JQuery. These tasks are based on FreeCodeCamp certification program. To run this website, just download the files and run them using any modern web browser. It was tested with Google Chrome.

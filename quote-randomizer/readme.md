@@ -1,4 +1,4 @@
 - It is an application created for fullfiling FreeCodeCamp's Front End Development Libraries Certificate.
-- It let the user to write GitHub flavored markdown syntax and then displays a rendered version of the syntax.
+- It gives the user a random quote from a list of quotes.
 - It was developed using React, Bootstrap, HTML, CSS, and JS. 
 - `npm start` to run the application.
